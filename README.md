@@ -1,2 +1,6 @@
 # graduate_cource
-hi
+git push
+git commit -am "标签"
+git status
+git add .
+
