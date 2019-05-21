@@ -3,5 +3,6 @@ git push
 git commit -am "标签"
 git status
 git add .
+git pull
 ls
 ll
