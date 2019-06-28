@@ -1,0 +1,101 @@
+\documentclass{aastex62}
+
+
+\begin{document}
+
+
+\title{Research on the large-scale anisotropy of cosmic rays}
+\author{Zhang peipei}
+
+\begin{abstract}
+Previous studies have shown that cosmic ray large-scale anisotropy has obvious energy dependence. With the change of energy, the large scale anisotropy structure will change obviously. In a dozen TeV energy segments,a excess feature around the right ascension of 50°-100°, and a deficit feature around the right ascension of 150°-250°. Nagashima et al. called these two anisotropy structures "Tail-in" and "Loss-cone" . When the energy increases to 50TeV, we find that the "Tail-in" gradually disappears. We guess that the formation of the "Tail-in" originates from the solar system and the formation of the "Loss-cone" originates from other galaxies. Therefore, the energy corresponding to the "Tail-in" is relatively low, so the "Tail-in" disappears when the energy increases gradually. Various experiments also shown that the distribution of anisotropy structures will change greatly when the energy increase to about 100TeV, but there is no definite conclusion about how the changes occur.
+Argo-ybj experiment was started in 2006 and stopped in 2013, with all-weather, high altitude, wide field of view and low energy threshold. Complete data from 2008 to 2012 were selected for this work.In this paper, the analysis results of cosmic ray pair anisotropy with argo-ybj experimental observation data are introduced and discussed.
+\end{abstract}
+\keywords{large-scale anisotropy, cosmic rays}
+
+\section{Introduction}
+下Cosmic rays are streams of high-energy particles from space.Cosmic rays are mostly composed of protons (about 90 percent), alpha particles, and other heavy nuclei.The intensity of cosmic ray flow presents a negative power distribution with the change of energy.In the energy range of 10^{10}-10^{15}\end eeV, the energy spectrum index of the whole particle measured in the experiment is about -2.7, and it turns to -3.1 when the bend occurs near 10^{15}\end eeV.The region where the energy spectrum bends (around 10^1^5\end eeV) is called "knee region", and the energy spectrum index continues to drop to -3.3 at 10^1^7\end eeV, which is called "second knee". At 4*10^1^8\end eeV, the energy spectrum index changes back to -2.7, which is called "ankle".
+
+When high-energy particles pass through the matter, they interact with the matter to produce secondary particles. High-energy secondary particles continue to interact with the matter to produce the third generation of particles.And these particles are scattered, absorbed, or decayed into other particles by matter.This process is called cascading.The number of particles increases to a maximum, then decreases until the cascade is complete.So cascades have horizontal extensions and vertical extensions.When a primary cosmic ray particle enters the atmosphere, will interact with the air core, through cascade shower to produce a large number of secondary particles, these particles contain hadrons, photons and muons and other components, widely scattered over a few square kilometers, this phenomenon is called wide-spread atmospheric shower.
+
+\section{ARGO-YBJ experiment}
+ARGO-YBJ(Astrophysical Radiation with ground-based Observatory at YangBaJing) experimental array is a full-coverage ground-based particle detector array cooperated by China and Italy. It is located at the YangBaJing cosmic ray observation station in Tibet. It started to operate in July, 2006 and stopped in February, 2013.ARGO-YBJ experiment array is developed by the Italian RPC (Resistive Plate Chamber) particle detection technology [18], is the world's first full collection of arrays, adopts full coverage, carpet array, reformed the traditional AS (Air Shower) methods,expand the detector array receiving effective area, so AS to increase the efficiency of particle to receive.
+
+Figure 1 is the distribution of zenith Angle and azimuth Angle of argo-ybj experiment.The data formats used in the later analysis are listed in table 1.
+
+\begin{figure}
+\plottwo{zen.eps}{azim.eps}
+\caption{Argo-ybj experimental zenith and azimuth Angle distribution\label{fig:f2}}
+\end{figure}
+
+\startlongtable
+\begin{deluxetable*}{ccCrlc}
+\tablecaption{Case information used in argo-ybj experiment\label{tab:mathmode}}
+\tablecolumns{5}
+\tablenum{1}
+\tablewidth{0pt}
+\tablehead{
+\colhead{    Rec\_Th\_cn   } &
+\colhead{   Rec\_Ph\_cn   } &
+\colhead{   m j d   } & \colhead{   nStr\_ca   } \\
+}
+\startdata
+zen & azim & time & energy\\
+\enddata
+\end{deluxetable*}
+\begin{deluxetable*}{ccCrlc}
+\tablecaption{The number and total number of eligible cases in each year of argo-ybj experiment\label{tab:mathmode}}
+\tablecolumns{5}
+\tablenum{2}
+\tablewidth{0pt}
+\tablehead{
+\colhead{  y e a r  } &\colhead{   } &\colhead{   } &
+\colhead{  number  of   case  }&\colhead{   } &\colhead{   }   \\
+}
+\startdata
+2 0 0 8 &  &  &  101034123                         \\
+2 0 0 9 &  &  &   130593855\\
+2 0 1 0 &  &  &   101156557\\
+2 0 1 1 &  &  &  85232302\\
+2 0 1 2 &  &  &  98847025\\
+\enddata
+\end{deluxetable*}
+
+\section{Cosmological ray anisotropy analysis method}
+The method of equal-zenith Angle analysis is often used in the study of cosmic ray anisotropy.In the horizontal coordinate system, the sky is divided into several zenith Angle bands, and each band is divided into several bin at azimuth Angle. In order to ensure that each bin has a solid Angle of the same size, the bin number of each zenith Angle band has the following relationship with the zenith Angle:
+
+\begin{equation}
+N_{bin}=\frac{360}{\alpha} \times sin\theta
+\end{equation}
+N_{•bin}\end i is the number of bin taken in azimuth direction, alpha is the degree of zenith Angle of each ring.So that each bin have its corresponding zenith Angle (\theta)\end i and azimuth (\phi)\end i, every arrive examples can be recorded its zenith Angle, azimuth Angle, and it arrived by the time (t) information, to reach the SOURCE window (ON - SOURCE) of the total number of cases in the bin to Non (t, \theta,\phi)\end i, will all back to the SOURCE window ON the same band (OFF - SOURCE) (bin) other than in addition to the SOURCE window all the examples in the average of the total record for Noff (t, \theta, \phi ')\end ..
+
+The relative intensity of cosmic rays is expressed as:
+
+\begin{equation}
+I(Ra,Dec)=\frac{N(Ra,Dec)-N_{bg}(Ra,Dec)}{N_{bg}(Ra,Dec)} + 1
+\end{equation}
+Significance is expressed as:
+
+\begin{equation}
+S(Ra,Dec)=\frac{N(Ra,Dec)-N_{bg}(Ra,Dec)}{\sqrt{N_{bg}(Ra,Dec)}}
+\end{equation}
+
+The advantage of the method is that the observation time of both the source window and the backsource window is the same, and the estimated background is not affected by pressure, temperature, system power failure, calibration, change of external environment or other unexpected stops.The analysis method chosen in this paper is equal-zenith Angle analysis method.
+
+\section{Results of argo-ybj experiment on high energy cosmic rays}
+FIG.2 shows the distribution and significance distribution of the relative intensity of stellar anisotropy observed by argo-ybj experimental data, with a significance scale of -15 to 15.FIG. 4.10 shows the one-dimensional projection and fitting function curves of relative intensity of anisotropy in stellar time and the one-dimensional projection and fitting function curves of anti-stellar time.As can be seen from FIG. 4.10, the "tail-in" structure has disappeared, the strength of the "loss-cone" has become weak, and the missing structure has a tendency to move to the left, and the overstepping structure at the position of right ascension of 250°-300° has also become obvious.Comparing the previous studies on the low energy part, we can find that no matter which experiment is at the low energy end, there is also a very weak out of structure at this position. Is the out of the high energy part coming from the same source as the out of the low energy part?According to previous studies, there was indeed a gamma ray source in the constellation Cygnus at this location, but no gamma rays of up to 100 TeV were measured in the constellation Cygnus.Some studies have speculated that this out-of-orientation points to the galactic center, so this out-of-structure may be a source of cosmic rays from the silver disk.So far, however, the origin of this out-of-structure in the high energy part of the right ascension range of 300° to 350° is unclear.The relative strength between 30° and 100° in right longitude and 30° and 80° in declination is lower than that between -20° and 30°. It can be more obvious from the significance figure that this part is missing.This means that the high declination occurs before the low declination.
+
+\begin{figure}
+\plottwo{08.eps}{erweitu08.eps}
+\caption{the distribution and significance distribution of the relative intensity of stellar anisotropy\label{fig:f2}}
+\end{figure}
+
+FIG.3 shows the distribution of large-scale anisotropy in stellar time from 2008 to 2012 from top to bottom. At the back of all the work, all the relative strength of two-dimensional histogram to choose the scale range is from 0.9975 to 1.0025, a one-dimensional projection scale range is 0.998 to 1.0025, as can be seen from the figure 5, 100 tev relative strength is weak, "Tail - in" basic structure has disappeared, the distribution of the anisotropic structure and low energy, compared with a large changes have occurred, in the right ascension of 50 ° to 200 °, there was a lack of new structure, in the right ascension of 250 ° to 330 °, there is a beyond structure.Compared with other years, the one-dimensional fitting curve of 2008 tends to be a straight line. As can be seen from table 4, the amplitude of 2008 is very small compared with the other four years, and the phase is also quite different from the other four years, with a large error. This is because the fitting curve of 2008 tends to be a straight line.From 2009 to 2012, the amplitude is stable around -8×10-4, and the phase is stable around 110°.
+
+\begin{figure}
+\plottwo{work1.eps}{work2.eps}
+\caption{the distribution of large-scale  anisotropy\label{fig:f2}}
+\end{figure}
+
+\end{document}
+
